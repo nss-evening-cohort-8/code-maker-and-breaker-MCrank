@@ -1,3 +1,17 @@
 body {
   background-color: tomato;
 }
+
+label {
+  display: block;
+}
+input {
+  width: 25rem;
+  height: 1.5rem;
+}
+button {
+  height: 2.2em;
+}
+#encode-output {
+  margin-bottom: 3rem;
+}
