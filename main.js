@@ -18,15 +18,11 @@ const encodeMe = (encodeString) => {
 // Take Array and decode then put back together
 const decodeMe = (decodeString) => {
   const stringArray = decodeString.split(',');
-  console.log(stringArray);
   let decodedString = '';
   decodedString = String.fromCharCode(stringArray);
-  console.log('Test', decodedString);
-  // :( So close...
-  //   stringArray.forEach((letter) => {
-  //     decodedString.concat(String.fromCharCode(letter));
-  //     // decodedArray.join(String.fromCharCode(letter));
-  //   });
+  stringArray.forEach((letter) => {
+    decodedString += String.fromCharCode(letter);
+  });
   return decodedString;
 };
 
