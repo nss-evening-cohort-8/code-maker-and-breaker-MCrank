@@ -29,6 +29,7 @@ const decodeMe = (decodeString) => {
 // Get reference to encode button for event
 // Create click event listener and send to encode function
 const encodeButton = document.querySelector('#encode-btn');
+
 encodeButton.addEventListener('click', (event) => {
   const userInput = document.querySelector('#encode-input');
   const encodedString = encodeMe(userInput.value);
@@ -37,8 +38,9 @@ encodeButton.addEventListener('click', (event) => {
 });
 
 // Get reference to decode button for event
-// Create click event listener and send to decode fucntion
+// Create click event listener and send to decode function
 const decodeButton = document.querySelector('#decode-btn');
+
 decodeButton.addEventListener('click', (event) => {
   const userInput = document.querySelector('#decode-input');
   const decodeString = decodeMe(userInput.value);
