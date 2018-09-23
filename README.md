@@ -7,8 +7,7 @@ This project was a time bound pop quiz to test our skills in javascript, html, a
 We learned how to convert text strings to and from UTF-16. We were also challeneged to use the .forEach() method which we had not used up to this point.
 
 ## Screenshots
-
-- Put some screenshots here
+![CMB Home page](./img/CodeMakerBreaker.PNG)
 
 ## How to run this project
 
