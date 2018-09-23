@@ -1,9 +1,11 @@
 body {
-  background-color: tomato;
+  background-color: slategray;
+  font-family: 'Cabin', sans-serif;
 }
 
 label {
   display: block;
+  font-size: 18px;
 }
 input {
   width: 25rem;
@@ -12,6 +14,8 @@ input {
 button {
   height: 2.2em;
 }
-#encode-output {
-  margin-bottom: 3rem;
+#encode-output,
+#decode-output {
+  margin: 1rem 0 3rem 0;
+  color: white;
 }

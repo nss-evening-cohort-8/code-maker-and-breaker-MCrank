@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Maker Breaker</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <label for="encode-input">Code Maker:</label>
-    <input type="text" name="encode-input" id="encode-input">
-    <button id="encode-btn">Convert to Secret!</button>
+    <div id="encode-section">
+        <h1>Super Mega Awesome Scrambler/Descrambler</h1>
+        <label for="encode-input">Code Maker:</label>
+        <input type="text" name="encode-input" id="encode-input" placeholder="Enter data to encrypt...">
+        <button id="encode-btn">Convert to Secret!</button>
+        <button id="copy-btn">Copy to decoder!</button>
+    </div>
+    <label for="decode-output">Your encrypted value:</label>
     <div id="encode-output"></div>
-
-    <label for="encode-input">Code Breaker:</label>
-    <input type="text" name="decode-input" id="decode-input">
-    <button id="decode-btn">Convert to Words!</button>
+    <hr>
+    <div id="decode-section">
+        <label for="encode-input">Code Breaker:</label>
+        <input type="text" name="decode-input" id="decode-input" placeholder="Enter data to decrypt...">
+        <button id="decode-btn">Convert to Words!</button>
+    </div>
+    <label for="decode-output">Your <strong>decrypted</strong> value:</label>
     <div id="decode-output"></div>
 
 
